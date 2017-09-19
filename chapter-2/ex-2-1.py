@@ -3,6 +3,8 @@ address = "address"
 city_state_zip = "Iowa,IA,52246"
 number = "3194408631"
 course = "cis-121"
+persons_info = name,address,city_state_zip,number,course
+print(persons_info)
 # Programming Exercise 2-1
 # 
 # Program to display one person's contact information.
