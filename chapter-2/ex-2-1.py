@@ -1,3 +1,8 @@
+name = "Ebrahim Mohamad"
+address = "address"
+city_state_zip = "Iowa,IA,52246"
+number = "3194408631"
+course = "cis-121"
 # Programming Exercise 2-1
 # 
 # Program to display one person's contact information.
@@ -6,19 +11,15 @@
 # It will display the name and contact information for a teacher.
 
 # display the full name
-print("Ebrahim Mohamad")
-
+print(name)
 # display the address
-print("2535BartletRdAp2C")
-
+print(address)
 # display the city, state and zip
-print("Iowa city,IA,52246")
-
+print(city_state_zip)
 # display the phone number
-print("3194408631")
-
+print(number)
 # display the course area
-print("Course area")
+print(course)
 
 
 
