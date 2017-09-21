@@ -5,20 +5,25 @@
 # and use it to calculate expected profit from a predefined profit margin
 # then display the result.
 
+
+
 # Variables to hold the sales total and the profit
 # initialize them as float values
-
+x = 50000
+y = .23
 
 # Get the amount of projected sales.
 # be sure to convert the input to a float
 
 
 # Calculate the projected profit using a 23% profit margin.
-
-
+z = x * y
+n = z + 50000
+print(n)
 # Print the projected profit.
 # be sure to format the output to two decimal places
 
+# answer: $61500.0
 
 
 
