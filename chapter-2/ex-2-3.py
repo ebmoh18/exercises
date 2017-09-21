@@ -7,10 +7,12 @@
 
 # Variables to hold the size of the tract and number of acres.
 # be sure to initialize these as floats
-
+x = 3
+y = 2.2957e-5
 
 # Constant for the number of square feet in an acre.
-
+z = x * y
+print(z)
 
 # Get the square feet in the tract from the user.
 # you will need to convert this input to a float
@@ -23,6 +25,6 @@
 # remember to format the acres to two decimal places
 
 
-
+#Answer: 6.8871e-05
 
 
