@@ -7,24 +7,23 @@
 
 # Variables to hold the size of the tract and number of acres.
 # be sure to initialize these as floats
-x = 3
-y = 2.2957e-5
+size_of_tract = 3
+number_of_acres = 2.2957e-5
 
 # Constant for the number of square feet in an acre.
-z = x * y
-print(z)
 
 # Get the square feet in the tract from the user.
 # you will need to convert this input to a float
-
-
+size_of_tract = input("size_of_tract =")
+size_of_tract = float(size_of_tract)
 # Calculate the number of acres.
+total_number_of_acres= size_of_tract * number_of_acres
+
 
 
 # Print the number of acres.
 # remember to format the acres to two decimal places
+print(total_number_of_acres)
 
-
-#Answer: 6.8871e-05
 
 
