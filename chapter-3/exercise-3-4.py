@@ -10,17 +10,34 @@
 
 # Get number from user and convert it to an int
 
+number = input("Insert a number from 1 to 10: ")
 
 # Set numeral to a Roman numeral value based on the value of number
 # use a set of if ... elif .... etc. statements.
-
-
-
-
-
-
+if number == 1:
+    print("Roman NUmeral = I")
+elif number == 2:
+    print("Roman NUmeral = II")
+elif number == 3:
+    print("Roman NUmeral = III")
+elif number == 4:
+    print("Roman NUmeral = IV")
+elif number == 5:
+    print("Roman NUmeral = V")
+elif number == 6:
+    print("Roman NUmeral = VI")
+elif number == 7:
+    print("Roman NUmeral = VII")
+elif number == 8:
+    print("Roman NUmeral = VIII")
+elif number == 9:
+    print("Roman NUmeral = IX")
+elif number == 10:
+    print("Roman NUmeral = X")
+elif number > 10:
+    print("Error")
+    print("Number Out Of Range")
 # use a final else to display an error if number is out of range.
-
 
 # display the numeral on the screen.
 

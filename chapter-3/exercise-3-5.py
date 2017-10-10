@@ -8,16 +8,19 @@
 
 
 # Global constants for minimum, maximum and mass multiplier values
-
+Constant = 9.81
 
 # Variables for weight and mass initialized as floats   
 
 
 # Get mass from user and convert it to a float
-
+mass = input("Enter the mass in Kilograms: ")
+mass = float(mass)
 
 # Calculate weight using the mass multiplier constant
-
+mass_in_newtons = mass * 9.81
+mass_in_newtons = str(mass_in_newtons)
+print("Mass In Newtons = " + mass_in_newtons + " Newtons")
 
 # Display the weight
 
