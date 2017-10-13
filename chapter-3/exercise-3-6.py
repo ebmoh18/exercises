@@ -44,12 +44,14 @@ if 99<year or year<0:
     # set message to hold "invalid year" message
 
 # else 
-else:
+elif year == day * month:
     print("Magic Date")
     # set message to hold the date in 00/00/00 form
-messages= month + "/" + day + "/" + year
+    messages = str(month) + "/" + str(day) + "/" + str(year)
+    print(messages)
     # if day * month equals year, add " is a magic date" to message
-    
+else:
+    print("Not a Magic Date")
     
     # else add " is not a magic date" to message
 
